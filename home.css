@@ -63,3 +63,8 @@ a{
 	font-size: 18px;
 
 }
+body
+{
+	
+	background: repeating-linear-gradient( -45deg, white 0px, beige 5px, white 6px, beige 11px, white 12px);
+}
