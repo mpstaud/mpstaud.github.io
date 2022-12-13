@@ -36,7 +36,23 @@ a{
 	
 	
 }
+.navmenu{
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-color: maroon;
+	color: gold;
+}
+.navmenu div{
+	padding: 8px;
+	font-size: 24px;
+	
 
+
+}
+/*
 .sidebar{
 	height:100%;
 	width: 200px;
@@ -48,6 +64,7 @@ a{
 	color: gold;
 }
 
+
 .sidebar div
 {
 	padding: 8px;
@@ -56,7 +73,7 @@ a{
 	;
 
 }
-
+*/
 .body-text
 {
 	margin-left: 150px;
