@@ -1,0 +1,25 @@
+
+#h1{
+	margin-left: 200px;
+	color : gold;
+	background: maroon;
+	padding: 5px;
+	width : 550px;
+	border-radius: 10px;
+	
+
+}
+
+#horizontal{
+    height: 50px;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-color: maroon;
+	color: gold;
+
+
+
+
+}
