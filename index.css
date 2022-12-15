@@ -1,6 +1,6 @@
 
-#h1{
-	margin-left: 200px;
+h1{
+	
 	color : gold;
 	background: maroon;
 	padding: 5px;
@@ -20,6 +20,13 @@
 	color: gold;
 
 
+
+
+}
+
+a{
+	color: gold;
+	padding-top: 20px;
 
 
 }
