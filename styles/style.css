@@ -11,7 +11,7 @@ body {
     border: 5px solid black;
 } 
 h1 {
-    color: aqua;
+    color: blueviolet;
     margin: 0;
     text-shadow: 3px 3px 1px black;
     padding: 20px 0;
@@ -35,7 +35,8 @@ nav li {
 }
 
 nav a {
-    color: black;
+    color: white;
+    text-decoration: none;
 
 
 }
@@ -54,6 +55,7 @@ nav, aside {
 }
 
 aside {
+    align-self: right;
     flex: 1;
     width: 150px;
     
