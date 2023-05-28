@@ -48,3 +48,12 @@ nav, aside {
     background-color: blueviolet;
     color: white;
 }
+
+aside {
+    flex: 1;
+    margin-left: 10px;
+    background-color: royalblue;
+
+
+
+}
