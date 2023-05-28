@@ -44,7 +44,7 @@ nav form {
 
 }
 
-nav, article, aside {
+nav, aside {
     background-color: blueviolet;
     color: white;
 }
