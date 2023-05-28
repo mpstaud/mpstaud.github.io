@@ -36,7 +36,7 @@ nav a {
 
 }
 
-aside {
+nav, article, aside {
     background-color: blueviolet;
     color: white;
 }
