@@ -18,6 +18,12 @@ ul {
     list-style: none;
 
 }
+nav {
+    height: 50px;
+    background-color: blueviolet;
+    display: flex;
+    margin-bottom: 10px;
+}
 
 nav li {
 
