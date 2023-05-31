@@ -57,7 +57,7 @@ nav form {
 }
 
 nav, aside {
-    background-color: blueviolet;
+    background-color: darkolivegreen;
     color: white;
 }
 
@@ -68,7 +68,7 @@ aside {
     text-decoration: none;
     margin-left: 10px;
     margin-right: 5px;
-    background-color: blueviolet;
+    background-color: darkolivegreen;
     color: white;
 
 }
