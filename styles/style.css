@@ -72,3 +72,9 @@ aside {
     color: white;
 
 }
+
+aside a {
+    text-decoration: none;
+    color: white
+
+}
