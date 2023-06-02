@@ -46,6 +46,8 @@ nav li {
 nav a {
     color: white;
     text-decoration: none;
+    margin-left: 10;
+    margin-right: 10;
 
 
 }
