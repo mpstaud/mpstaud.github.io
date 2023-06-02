@@ -17,6 +17,12 @@ h1 {
     margin-left: 5px;
 
 }
+header img {
+    float: left;
+  width: 100px;
+  height: 100px;
+  
+}
 
 ul {
     list-style: none;
