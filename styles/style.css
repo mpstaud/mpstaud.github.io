@@ -12,7 +12,7 @@ body {
 } 
 h1 {
     color: white;
-    margin: 0;
+    
     text-shadow: 3px 3px 1px black;
     
 
@@ -37,6 +37,8 @@ nav ul {
     display: flex;
 }
 nav li {
+    margin-left: 10px;
+    margin-right: 10px;
 
     display:inline
 }
