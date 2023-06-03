@@ -13,7 +13,7 @@ body {
 h1 {
     color: white;
     margin: auto;
-    text-shadow: 3px 3px 1px #C41E3A;
+    text-shadow: 3px 3px 1px black;
     margin-left: 5px;
 
 }
@@ -21,6 +21,7 @@ header img {
     float: left;
   width: 50px;
   height: 50px;
+  border-radius: 10px;
   
 }
 ul img {
