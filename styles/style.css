@@ -31,7 +31,7 @@ ul {
 
 nav {
     height: 50px;
-    background-color: darkolivegreen;
+    background-color: #F41C82;
     display: flex;
     margin-bottom: 10px;
 }
@@ -67,7 +67,7 @@ nav form {
 }
 
 nav, aside {
-    background-color: darkolivegreen;
+    background-color: #F41C82;
     color: white;
 }
 
