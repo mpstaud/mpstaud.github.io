@@ -1,12 +1,13 @@
 
 html {
-    background-color: lightgrey;
+    background: rgba(204, 204, 204, 0.9);
     margin: 0;
     
   }
   
 body {
-    background-color: white;
+    background-image: url("https://mpstaud.github.io/images/45526.jpg");
+    background: rgba(204, 204, 204, 0.5);
     color: black;
     margin:0;
     padding: 0 20px 20px 20px;
@@ -41,8 +42,9 @@ ul {
 }
 header {
    
-    background-color: #C41E3A;
+    background: rgba(204, 204, 204, 0.9);
     width: 100%;
+    margin-left: -20px;
     
     
     
@@ -50,9 +52,10 @@ header {
 nav {
     height: 50px;
     border-radius: 15px;
-    background-color: black;
+    background: rgba(204, 204, 204, 0.9);
     display: flex;
     margin-bottom: 10px;
+    opacity: 100%;
 }
 
 nav ul {
@@ -86,7 +89,7 @@ nav form {
 }
 
 nav, aside {
-    background-color: #C41E3A;
+    background: rgba(204, 204, 204, 0.9);
     color: white;
 }
 
