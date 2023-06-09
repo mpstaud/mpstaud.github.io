@@ -1,12 +1,12 @@
 
 html {
-    background-image: url("https://mpstaud.github.io/images/45526.jpg");
+    /*background-image: url("https://mpstaud.github.io/images/45526.jpg");*/
     margin: 0;
-    
+    background: black
   }
   
 body {
-    
+    background: rgba(86, 84, 84, 0.286);
 
     color: black;
     margin:0;
@@ -38,26 +38,19 @@ ul img {
 
 ul {
     list-style: none;
-
 }
 header {
-   
-    background: rgba(247, 4, 4, 0.205);
+    background: rgba(204, 204, 204, 0.25);
     width: 100%;
     margin-left: -20px;
-    
-    
-    
 }
 nav {
-    background: rgba(204, 204, 204, 0.3);
+    
     height: 50px;
     border-radius: 15px;
     display: flex;
     margin-bottom: 10px;
-    
 }
-
 nav ul {
     padding: 0;
     list-style-type: none;
@@ -67,7 +60,8 @@ nav ul {
 nav li {
     margin-left: 10px;
     margin-right: 10px;
-
+    background: rgba(187, 183, 183, 0.00);
+    border-radius: 4px;
     display:inline
 }
 
@@ -76,23 +70,22 @@ nav a {
     text-decoration: none;
     margin-left: 10;
     margin-right: 10;
-
-
-}
-nav form {
-    flex: 1;
-  display: flex;
-  align-items: center;
-  height: 100%;
-  padding: 0 2em;
-
 }
 
-nav, aside {
-    background: rgba(204, 204, 204, 0.0);
+input[type=search] {
+    float: left;
+    padding: 6px;
+    border: none;
+    width: 500px;
+    border-radius: 5px;
+    display:inline;
+    margin-right: 16px;
+    font-size: 17px;
+}
+aside {
+    background: rgba(204, 204, 204, 1.0);
     color: white;
 }
-
 aside {
     text-align: center;
     border-radius: 10px;
@@ -101,9 +94,7 @@ aside {
     text-decoration: none;
     margin-left: 5px;
     margin-right: 5px;
-    background-color: #C41E3A;
     color: white;
-
 }
 
 aside a {
