@@ -1,14 +1,14 @@
 
 html {
-    /*background-image: url("https://mpstaud.github.io/images/45526.jpg");*/
+    background-image: url("https://mpstaud.github.io/images/45526.jpg");
     margin: 0;
-    background: black
+    
   }
   
 body {
-    background: rgba(86, 84, 84, 0.286);
+    
 
-    color: black;
+    
     margin:0;
     padding: 0 20px 20px 20px;
     width: 100%;
@@ -82,24 +82,33 @@ input[type=search] {
     margin-right: 16px;
     font-size: 17px;
 }
-aside {
-    background: rgba(204, 204, 204, 1.0);
+article{
     color: white;
 }
 aside {
+    
+    background: rgba(204, 204, 204, 0.25);
+    color: white;
+}
+aside {
+    
     text-align: center;
     border-radius: 10px;
     flex: 1;
     width: 150px;
     text-decoration: none;
-    margin-left: 5px;
-    margin-right: 5px;
+   
     color: white;
+}
+aside li {
+    text-align: center;
+    margin-top: 10px;
 }
 
 aside a {
     text-decoration: none;
-    color: white
+    color: white;
+    
 
 }
 
@@ -107,4 +116,14 @@ form {
     
     color: darkgrey;
 }
+
+footer {
+    background: rgba(204, 204, 204, 0.25);
+    color: white;
+    width: 100%;
+    margin-left: -20px;
+}
+    
+
+
 
