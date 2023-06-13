@@ -14,21 +14,34 @@
 	<body>
 		<header>	
 			<!--Create Navigation Bar-->
-			<nav>
+			<nav class="navbar">
 				<img src="./images/mlogo-2-1.png" alt="logo"/>
-				<ul><!--Links to the other pages on the site-->
-					<li><a href="./aboutme.html">About</a></li>
-					<li> | </li>			  
-					<li><a href="./projects.html">Portfolio</a></li>
-					<li> | </li>
-					<li><a href="./contact.html">Contact</a></li>
-				</ul>
+
+				<!--Links to the other pages on the site-->
+				<ul class="nav-logo">
+					<li class="nav-item">
+						<a href="./aboutme.html" class="nav-link">About</a>
+					</li>
+					<li class="nav-item">
+						<a href="./projects.html" class="nav-link">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a href="./contact.html" class="nav-link">Contact</a>
+					</li>
+					
+				</ul>	
+				<div class="hamburger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>	  
 				<form> <!--Inserting Search Box-->
 					<input type="search" name="q" placeholder="Search Site" />
-					
 				</form>
+			
 			</nav>
 		</header>
+		<script src="script.js"></script>
 		
 		<main>
 			<article>
