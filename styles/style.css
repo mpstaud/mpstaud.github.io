@@ -1,164 +1,44 @@
 
-html {
-    /*background-image: url("https://mpstaud.github.io/images/ColoradoMountain.jpeg");*/
-    background-color: #353C40;
+html, body {
+    padding:  0;
     margin: 0;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100%;
-    
-  }
-   
-body {
-    
-    
-    margin: 0;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100%;
-    
+}
+article {
+    margin: 50px;
+    margin-top: 55px;
+}
 
-    
-    margin:0;
-    padding: 0 20px 20px 20px;
+.navbar {
+    position: fixed;
+    top: 0;
+
+    background: rgb(0, 0, 0);
     width: 100%;
-} 
-h1 {
-    color: white;
-    margin: auto;
-    text-shadow: 3px 3px 1px black;
-    margin-left: 5px;
-
+    height: 50px;
 }
-header img {
-    float: left;
-    margin: 5px;
-    width: 40px;
-    height: 40px;
-    border-radius: 15px;
+.nav-menu {
     
-  
-}
-ul img {
-    float: left;
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
-}
-
-ul {
     list-style: none;
+
 }
-header {
-    width: 100%;
-    margin-left: -20px;
-}
-nav {
-    position: fixed;
-    top: 0;
-    height: 50px;
-    width: 100%;
-    margin-bottom: 10px;
-    background-color: royalblue;
-    
-}
-nav ul {
-    padding: 0;
-    list-style-type: none;
-    /*flex: 2;*/
+.nav-item{
+    margin: auto;
     display: inline;
-    
-}
-nav li {
-    margin-left: 10px;
-    margin-right: 10px;
-    background: rgba(143, 10, 10, 0.932);
-    border-radius: 4px;
-    display: inline;
-    height: 50px;
-   
+
 }
 
-nav a {
-    color: white;
+.nav-link{
+    margin-right: 5px;
     text-decoration: none;
-    font-size: 20px;
+    
+    
     
 }
-
-input[type=search] {
-    position: fixed;
-    top: 0;
-    left: 70%;
-    padding: 6px;
-    border: none;
-    
-    margin: 5px;
-    border-radius: 5px;
-    font-size: 20px;
-    background: rgba(0, 0, 0, 0.25);
-    color: white;
-}
-article{
-    color: white;
-}
-
-aside {
-    
-    background: rgb(0, 0, 0);
-    color: white;
-}
-aside {
-    
-    text-align: center;
-    border-radius: 10px;
-    /*flex: 1;*/
-    width: 150px;
-    text-decoration: none;
-   
-    color: white;
-}
-aside li {
-    text-align: center;
-    margin-top: 10px;
-}
-
-aside a {
-    text-decoration: none;
-    color: white;
-   
+.nav-link:hover {
+    background-color: #383e42;
+    padding: 3px;
 
 }
-
-form {
-    
-    color: darkgrey;
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    width: 100%;
-    margin-left: -20px;
-}
-.hamburger {
-    position: fixed;
-    top: 5 px;
-    left: 5px;
-    color: white;
-    background-color: blueviolet;
-}
-
-span {
-    length: 20px;
-    height: 5px;
-    margin: 2px;
-    color: red;
-}
-
     
 
 
