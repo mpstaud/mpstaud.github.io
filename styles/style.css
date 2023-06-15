@@ -17,7 +17,7 @@ article {
     height: 50px;
 }
 .nav-menu {
-    
+    margin-bottom: 5px;
     list-style: none;
 
 }
@@ -36,7 +36,7 @@ article {
 }
 .nav-link:hover {
     background-color: #383e42;
-    padding: 3px;
+    
 
 }
     
