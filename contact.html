@@ -1,90 +1,68 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<!--Link Style Sheet-->
-		<link rel="stylesheet" href="./styles/style.css"/>
-	
-		<meta charset="UTF-8">
+		<link rel="stylesheet" href="./styles/style.css"/> <!--Link Style Sheet-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geologica"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tilt+Prism"/>
+		<style>
+			.nav-logo{
+				font-family: 'Tilt Prism', serif;
+				font-size: 35px;
+				float: left;
+				color: white;
+				text-decoration: none;
+				margin-left: 5px;
+				margin-right: 10px;
+			}
+			.nav-link{
+				font-family: 'Geologica', serif;
+				font-size: 20px;
+				color: white;
+				margin: 5px;
+				
+			}
+			.nav-menu{
+				margin: 12px;
+			}
+		</style>
+		<meta charset="UTF-8"> <!-- Universal Text Format -->
 		<meta name="viewport" content="width=device-width,initial-scale=1"/>
-
 		<title>Contact</title>
-		<link type="image/png" sizes="96x96" rel="icon" href="#">
-
+		<link type="image/png" sizes="96x96" rel="icon" href="#"> <!--Building blocks of a favicon link-->
 		<meta name="author" content="Matt Staudacher" />
-		<meta name="description" content="This is the site I created to showcase my Web Development skills as well as my other endeavors and aspirations" />
-
-	
+		<meta name="description" 
+		content="This is the site I created to showcase my Web 
+		Development skills as well as my other endeavors and aspirations" />
 	</head>
-
 	<body>
-	
-	
-		<header>
-		
-			
-
-		
+		<header>	
 			<!--Create Navigation Bar-->
-
-		
-			<nav>
-				<img src="./images/mlogo-2-1.png" alt="logo"/>
-			
-				<ul>
-					<li><a href="./index.html">Home</a></li>
-                    <li>|</li>			  
-					<li><a href="./aboutme.html">About</a></li>
-                    <li>|</li>
-					<li><a href="./projects.html">Portfolio</a></li>
-				</ul>
-	
-				<form>
-					<input type="search" name="q" placeholder="Search Site" />
-					
-			
-				</form>
+			<nav class="navbar">
+				<!--Links to the other pages on the site-->
+				<a class="nav-logo" href="#">MPS</a>
+				<ul class="nav-menu">
+					<li class="nav-item">
+						<a href="./aboutme.html" class="nav-link">About</a>
+					</li>
+					<li class="nav-item">
+						<a href="./projects.html" class="nav-link">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a href="./contact.html" class="nav-link">Contact</a>
+					</li>
+				</ul>	
 			</nav>
-		
 		</header>
-
-
-
-  
-	
-	
+		
+		
 		<main>
 			<article>
-				<h2>Contact Information</h2>
-				
-				<ul>
-					<li>Phone: 630-464-9844</li>
-					<li>Email: staudachermatthew@gmail.com</li>
-					<li><a href="https://www.linkedin.com/in/matt-staudacher/">LinkedIn</a></li>
-				</ul>
-			
-				
-			</article>
-	
-		  
-			
+				<h2>Homepage in progress...</h2>
 
-
-
+				<p>We're planning on doing great things with this site, but we aren't quite there yet!</p>
+			</article>		  
 		</main>
-		
-		<aside>
-			<h2>Related</h2>
-
-			<ul>
-				  <li><a href="#">1</a></li>
-				  <li><a href="#">2</a></li>
-				  <li><a href="#">3</a></li>
-				  <li><a href="#">4</a></li>
-				  <li><a href="#">5</a></li>
-			</ul>
-		</aside>
-
-	
-	
+		<aside></aside>
+		<footer></footer>
 	</body>
 </html>

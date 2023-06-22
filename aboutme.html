@@ -1,81 +1,68 @@
 <!doctype html>
 <html lang="en">
-<head>
-	<!--Link Style Sheet-->
-	<link rel="stylesheet" href="./styles/style.css"/>
-	
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1"/>
-
-	<title>About</title>
-	<link type="image/png" sizes="96x96" rel="icon" href="C:\Users\Matthew\OneDrive\Documents\Matt's Website\images\icons8-home-96.png">
-
-	<meta name="author" content="Matt Staudacher" />
-	<meta name="description" content="This is the site I created to showcase my Web Development skills as well as my other endeavors and aspirations" />
-
-	
-</head>
-<body>
-	
-	<header>
+	<head>
+		<link rel="stylesheet" href="./styles/style.css"/> <!--Link Style Sheet-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geologica"/>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tilt+Prism"/>
+		<style>
+			.nav-logo{
+				font-family: 'Tilt Prism', serif;
+				font-size: 35px;
+				float: left;
+				color: white;
+				text-decoration: none;
+				margin-left: 5px;
+				margin-right: 10px;
+			}
+			.nav-link{
+				font-family: 'Geologica', serif;
+				font-size: 20px;
+				color: white;
+				margin: 5px;
+				
+			}
+			.nav-menu{
+				margin: 12px;
+			}
+		</style>
+		<meta charset="UTF-8"> <!-- Universal Text Format -->
+		<meta name="viewport" content="width=device-width,initial-scale=1"/>
+		<title>About</title>
+		<link type="image/png" sizes="96x96" rel="icon" href="#"> <!--Building blocks of a favicon link-->
+		<meta name="author" content="Matt Staudacher" />
+		<meta name="description" 
+		content="This is the site I created to showcase my Web 
+		Development skills as well as my other endeavors and aspirations" />
+	</head>
+	<body>
+		<header>	
+			<!--Create Navigation Bar-->
+			<nav class="navbar">
+				<!--Links to the other pages on the site-->
+				<a class="nav-logo" href="#">MPS</a>
+				<ul class="nav-menu">
+					<li class="nav-item">
+						<a href="./aboutme.html" class="nav-link">About</a>
+					</li>
+					<li class="nav-item">
+						<a href="./projects.html" class="nav-link">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a href="./contact.html" class="nav-link">Contact</a>
+					</li>
+				</ul>	
+			</nav>
+		</header>
 		
-
-		<!--Create Navigation Bar-->
-
-		<nav class="navbar">
-			<img src="./images/mlogo-2-1.png" alt="logo"/>
-			
-			<ul>
-			  <li><a href="./index.html">Home</a></li>
-			 
-			  <li><a href="./projects.html">Projects</a></li>
-			  
-			  <li><a href="./contact.html">Contact</a></li>
-			</ul>
-	
-			<form>
-				<input type="search" name="q" placeholder="Search query" />
-				<input type="submit" value="Go!" />
-			
-			</form>
-		</nav>
 		
-	</header>
+		<main>
+			<article>
+				<h2>Homepage in progress...</h2>
 
-
-
-  
-	
-	
-	<main>
-		<article>
-			
-			<h2>Bio</h2>
-			<img src="./images/portrait.jpeg" alt="logo"/>
-			<a href="./2023-Resume-Staudacher.pdf">Resume</a>
-
-			
-		  </article>
-	
-		  <!-- the aside content can also be nested within the main content -->
-		  <aside>
-			
-		  </aside>
-
-
-
-	</main>
-	<footer>
-
-		
-	</footer>
-
-	
-
-
-
-
-
-</body>
-
+				<p>We're planning on doing great things with this site, but we aren't quite there yet!</p>
+			</article>		  
+		</main>
+		<aside></aside>
+		<footer></footer>
+	</body>
 </html>
