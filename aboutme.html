@@ -5,6 +5,9 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geologica"/>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tilt+Prism"/>
 		<style>
+			html{
+				/*background: url(https://mpstaud.github.io/images/AlpineLake.jpeg);*/
+			}
 			.nav-logo{
 				font-family: 'Tilt Prism', serif;
 				font-size: 35px;
@@ -24,10 +27,68 @@
 			.nav-menu{
 				margin: 12px;
 			}
+			
+			.about-h2{
+				font-family: 'Geologica', serif;
+				font-size: 45px;
+				color: Black;
+				text-align: center;
+				
+				
+				
+
+			}
+			.resume-h3{
+				font-family: 'Geologica', serif;
+				font-size: 30px;
+				color: Black;
+
+			}
+			.catalog{
+				text-decoration: none;
+				padding: 5px;
+				background-color: lightgray;
+				color: black;
+				border-radius: 5px;
+			}
+			.catalog:hover {
+				padding: 5px;
+				background-color: black;
+				color: white;
+			}
+			p {font-family: 'Geologica', serif;
+				font-size: 16px;
+				color: black;
+				margin: 10px;
+			}
+			.link {
+				text-decoration: none;
+				padding: 5px;
+				background-color: lightgray;
+				color: black;
+				border-radius: 5px;
+			}
+			.link:hover {
+				padding: 5px;
+				background-color: black;
+				color: white;
+			}
+			.reslist{
+				font-family: 'Geologica', serif;
+				font-size: 16px;
+				color: black;
+				margin: 10px;
+				list-style: none;
+				
+
+			}
+			
+			
+			
 		</style>
 		<meta charset="UTF-8"> <!-- Universal Text Format -->
 		<meta name="viewport" content="width=device-width,initial-scale=1"/>
-		<title>About</title>
+		<title>Resume</title>
 		<link type="image/png" sizes="96x96" rel="icon" href="#"> <!--Building blocks of a favicon link-->
 		<meta name="author" content="Matt Staudacher" />
 		<meta name="description" 
@@ -39,10 +100,10 @@
 			<!--Create Navigation Bar-->
 			<nav class="navbar">
 				<!--Links to the other pages on the site-->
-				<a class="nav-logo" href="#">MPS</a>
+				<a class="nav-logo" href="./index.html">MPS</a>
 				<ul class="nav-menu">
 					<li class="nav-item">
-						<a href="./aboutme.html" class="nav-link">About</a>
+						<a href="./aboutme.html" class="nav-link">Home</a>
 					</li>
 					<li class="nav-item">
 						<a href="./projects.html" class="nav-link">Portfolio</a>
@@ -57,9 +118,49 @@
 		
 		<main>
 			<article>
-				<h2>Homepage in progress...</h2>
+				
+				
+		
+				<h2 class="about-h2">Resume</h2>
+				
+				<h3 class="resume-h3">Education</h2>
+				<hr>
+				<h3 class="resume-h3">Iowa State University | 2018 - 2022</h3>
+					<p>Bachelor of Science, Management Information Systems</p>
+					<p>MIS 407: Advanced Business Programming</p>
+					<p>MIS 307: Intermediate Business Programming </p>
+					<p>MIS 368: Marketing Analytics</p>
+					<p>MIS 320: Database Management Systems</p>
 
-				<p>We're planning on doing great things with this site, but we aren't quite there yet!</p>
+					<p><a class="catalog" href="https://catalog.iastate.edu/azcourses/mis/">ISU Course Descriptions</a></p>
+				<hr>
+				<h3 class="resume-h3">Skills</h3>
+					<ul class="reslist">
+						<li>Python</li>
+						<li>Java</li>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>Flask</li>
+						<li>SQL</li>
+					</ul>
+				
+				<hr>
+				<h3 class="resume-h3">Work Experience</h3>
+				<p>Associate IT Support & Service Analyst | Ruan Transportation | June 2022 - Present</p>
+				<ul class="job-description">
+					<li class="description">
+						Supported End Users with various Technology Issues
+					</li>
+					<li class="description">
+						Designed the flow of an automated process for updating access when an employee gets promoted or transfers to a different role
+					</li>
+					<li class="description">
+						
+					</li>
+					
+				</ul>
+				<hr>
+				<p>Click <a class="link" href="./2023-Resume-Staudacher.pdf">here</a> to download the PDF Version of my Resume</p>
 			</article>		  
 		</main>
 		<aside></aside>
