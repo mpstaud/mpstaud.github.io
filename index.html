@@ -1,46 +1,106 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<link rel="stylesheet" href="./styles/style.css"/> <!--Link Style Sheet-->
+		<!--<link rel="stylesheet" href="./styles/style.css"/> --><!--Link Style Sheet-->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geologica"/>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tilt+Prism"/>
+		<meta charset="UTF-8"> <!-- Universal Text Format -->
+		<meta name="viewport" content="width=device-width,initial-scale=1"/>
+		<title>Home</title>
 		<style>
+			html, body{
+				margin: 0;
+				padding: 0;
+				
+				
+			}
+			h1 {
+				margin: 0;
+			}
+			body {
+				height: 100%;
+			}
+			
+			header {
+				float: left; 
+				width: 100%;
+				height: 50px;
+				background-color: black;
+			}
+			
+			
 			.nav-logo{
 				font-family: 'Tilt Prism', serif;
 				font-size: 35px;
 				float: left;
 				color: white;
 				text-decoration: none;
-				margin-left: 5px;
-				margin-right: 10px;
+				
 			}
 			.nav-link{
 				font-family: 'Geologica', serif;
 				font-size: 25px;
 				color: white;
-				margin: 5px;
+				margin: 0;
 				/*-webkit-text-stroke-width: 1px;
 				-webkit-text-stroke-color: black;*/
 			}
-			.nav-menu{
-				margin: 12px;
+			
+			
+			section {
+				display: flex;
+				
+				
+			
+			}
+			article {
+				
+				margin: 10px;
+				background: lightgray;
+				flex:1 200px;
+				border-radius: 10px;
+			}
+			article:nth-of-type(3) {
+				flex:3 200px;
+				display: flex;
+				flex-flow: column;
+
+			}
+			h2 {
+				font-family: 'Geologica', serif;
+				font-size: 15px;
+				color: Black;
+				
+			}
+			.nav-menu {
+				list-style: none;
+			}
+			.nav-item{
+				
+				display: inline;
+			}
+			.nav-link{
+				
+				text-decoration: none;
+				
+			}
+			.nav-link:hover {
+				background-color: #383e42;
+				border-radius: 5px;
+				
 			}
 		</style>
-		<meta charset="UTF-8"> <!-- Universal Text Format -->
-		<meta name="viewport" content="width=device-width,initial-scale=1"/>
-		<title>Home</title>
 		<link type="image/png" sizes="96x96" rel="icon" href="#"> <!--Building blocks of a favicon link-->
 		<meta name="author" content="Matt Staudacher" />
 		<meta name="description" 
-		content="This is the site I created to showcase my Web 
-		Development skills as well as my other endeavors and aspirations" />
+		content="This is the site I created to showcase my Web Development skills as well as my other endeavors and aspirations" />
 	</head>
 	<body>
 		<header>	
 			<!--Create Navigation Bar-->
 			<nav class="navbar">
 				<!--Links to the other pages on the site-->
-				<a class="nav-logo" href="#">MPS</a>
+				<!--<a class="nav-logo" href="#">MPS</a>-->
 				<ul class="nav-menu">
 					<li class="nav-item">
 						<a href="./aboutme.html" class="nav-link">Resume</a>
@@ -56,13 +116,39 @@
 		</header>
 		
 		
-		<main>
+		
+		<section>
 			<article>
-				<h2>Homepage in progress...</h2>
+				<h2>Newsletter</h2>
 
-				<p>We're planning on doing great things with this site, but we aren't quite there yet!</p>
-			</article>		  
-		</main>
+				<p>This month, I'm going on a 9 day Vacation to Chicago and Lake Geneva in Wisconsin. I probably won't be working on the site much, but I will be rejeuvenated when I get back. I will be at the friendly confines of Wrigley Field as well!</p>
+			</article>
+		</section>
+		<section>
+			<article>
+				<h2>Current Project</h2>
+				<p>I plan to finish the building blocks of this site, then work on a few more projects to really fill out the portfolio. </p>
+			</article>
+		</section>
+		<section>
+			<article>
+				<h2>Current Project</h2>
+				<p>I plan to finish the building blocks of this site, then work on a few more projects to really fill out the portfolio. </p>
+			</article>
+		</section>
+		<section>
+			<article>
+				<h2>Current Project</h2>
+				<p>I plan to finish the building blocks of this site, then work on a few more projects to really fill out the portfolio. </p>
+			</article>
+		</section>
+		<section>
+			<article>
+				<h2>Current Project</h2>
+				<p>I plan to finish the building blocks of this site, then work on a few more projects to really fill out the portfolio. </p>
+			</article>
+		</section>
+		
 		<aside></aside>
 		<footer></footer>
 	</body>
