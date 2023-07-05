@@ -1,22 +1,61 @@
 
 html, body {
-    padding:  0;
-    margin: 0;
-}  
+    padding:  0px;
+    margin: 0px;
+} 
+html{
+    background:url("https://mpstaud.github.io/images/AlpineLake.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #212129;
+    
+}
+h1{
+    margin-top: 0px;
+} 
+h2{
+    font-family: "Geologica", serif;
+    
+}
+p {
+    font-family: "Geologica", serif;
+}
+li {
+    font-family: "Geologica", serif;
+}
+
 
 
 header {
-    margin-top: 0;
-}
-
-/*.navbar {
     position: fixed;
     top: 0;
-
-    background: black;
-    width: 100%;
+    left: 0;
     height: 50px;
-}*/
+    width: 100%;
+    background: #212129ea;
+}
+
+/*Styling for Naviagtion*/
+.navbar{
+    margin: 0px;
+
+}
+.nav-logo{
+    font-family: 'Tilt Prism', serif;
+    font-size: 35px;
+    float: inline-start;
+    color: white;
+    text-decoration: none;
+    margin-top: 0px;
+    padding-right: 5px;
+    padding-left: 10px;
+    
+}
+.nav-logo:hover {
+    
+    color: green;
+}
+
 .nav-menu {
     
     list-style: none;
@@ -32,47 +71,51 @@ header {
     margin-right: 5px;
     text-decoration: none;
     padding: 5px;
-    
+    color: white;
+
     
 }
 .nav-link:hover {
-    background-color: #383e42;
+    color: green;
     border-radius: 5px;
     padding: 5px;
 
 }
-.sidebar {
+
+section{
+    margin-top: 50px;
+}
+
+article{
+    margin: 10px;
+}
+.Newsletter{
     position: fixed;
     left: 0;
-    top: 50px;
-    background-color: #383e42;
-    width: 12%;
-    height: 100%;
-    color: white;
-}
-.project-article {
-    margin-left: 15%;
-    
-    
-}
-    
-.project-menu {
-    list-style: none;
-    
-}
-.project{
+    width: 49.5%;
+    background: #212129ea;
+    margin-top: 55px;
+    margin-left: 5px;
+    height: 50%;
+    border: 1px solid black;
+} 
+.news-article {
     margin: 10px;
-    margin-left: -40px;
-    margin-right: 0;
-    padding: 10px;
     
-    text-align: center;
+}  
+.photos{
+    position: fixed;
+    right: 0;
+    width: 49.5%;
+    background-color: #212129ea;
+    margin-top: 55px;
+    margin-right: 5px;
+    height:50%;
+    border: 1px solid black;
+    
 
 }
-.project:hover{
-    background-color: black;
 
-}
 
 
 

@@ -1,108 +1,15 @@
 <!doctype html>
 <html lang="en">
 	<head>
-		<!--<link rel="stylesheet" href="./styles/style.css"/> --><!--Link Style Sheet-->
+		<link rel="stylesheet" href="./styles/style.css"/>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geologica"/>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tilt+Prism"/>
 		<meta charset="UTF-8"> <!-- Universal Text Format -->
 		<meta name="viewport" content="width=device-width,initial-scale=1"/>
 		<title>Home</title>
 		<style>
-			html, body{
-				margin: 0;
-				
-				
-				
-			}
-			h1 {
-				margin-top: 0;
-				
-			}
 			body {
-				height: 100%;
-			}
-			
-			header {
-				padding-top: 10px;
-				width: 100%;
-				height: 50px;
-				background-color: black;
-				margin: 0px;
-			}
-			.navbar {
-				margin: 0px;
-			}
-			
-			.nav-logo{
-				font-family: 'Tilt Prism', serif;
-				font-size: 35px;
-				float: inline-start;
 				color: white;
-				text-decoration: none;
-				margin-top: 0px;
-				padding-right: 5px;
-				padding-left: 10px;
-				
-			}
-			.nav-logo:hover {
-				color: green;
-
-			}
-			.nav-link{
-				font-family: 'Geologica', serif;
-				font-size: 25px;
-				color: white;
-				margin: 0;
-				padding-left: 5px;
-				padding-right: 5px;
-				/*-webkit-text-stroke-width: 1px;
-				-webkit-text-stroke-color: black;*/
-			}
-			
-			
-			section {
-				display: flex;
-				
-				
-			
-			}
-			article {
-				
-				margin: 10px;
-				background: lightgray;
-				flex:1 200px;
-				border-radius: 10px;
-			}
-			article:nth-of-type(3) {
-				flex:3 200px;
-				display: flex;
-				flex-flow: column;
-
-			}
-			h2 {
-				font-family: 'Geologica', serif;
-				font-size: 15px;
-				color: Black;
-				
-			}
-			.nav-menu {
-				list-style: none;
-				margin: 10px;
-			}
-			.nav-item{
-				
-				display: inline;
-			}
-			.nav-link{
-				
-				text-decoration: none;
-				
-			}
-			.nav-link:hover {
-				
-				border-radius: 10px;
-				color: green;
-				
 			}
 		</style>
 		<link type="image/png" sizes="96x96" rel="icon" href="#"> <!--Building blocks of a favicon link-->
@@ -113,13 +20,13 @@
 	<body>
 		<header>	
 			<!--Create Navigation Bar-->
-			<a class="nav-logo" href="#">M</a>
+			<a class="nav-logo" href="#" title="The best place to see all of my projects and endeavors">M</a>
 			<nav class="navbar">
 				<!--Links to the other pages on the site-->
 				
 				<ul class="nav-menu">
 					<li class="nav-item">
-						<a href="./aboutme.html" class="nav-link">Resume</a>
+						<a href="./resume.html" class="nav-link">Resume</a>
 					</li>
 					<li class="nav-item">
 						<a href="./projects.html" class="nav-link">Portfolio</a>
@@ -127,49 +34,50 @@
 					<li class="nav-item">
 						<a href="./contact.html" class="nav-link">Contact</a>
 					</li>
+					<li class="nav-item">
+						<a href="mailto:staudachermatthew@gmail.com" class="nav-link" >Email Me</a>
+
+					</li>
 				</ul>	
 			</nav>
 		</header>
+		<main>
+			<section class="Newsletter">
+				
+				<article class="news-article">
+					<h2>Newsletter</h2>
 		
-		
-		
-		<section>
-			<article>
-				<h2>Newsletter</h2>
+					<p>
+						This month, I'm going on a 9 day Vacation to Chicago and Lake Geneva in Wisconsin. 
+						I probably won't be working on the site much, but I will be rejeuvenated when I get back. 
+						I will be at the friendly confines of Wrigley Field as well!
+					</p>
+				</article>
+				
+				
+				<article class="news-article">
+					<h2>Current Project</h2>
+					<p>
+						I plan to finish the building blocks of this site, 
+						then work on a few more projects to really fill out the portfolio. 
+						I'm learning a lot about CSS right now and 
+						hopefully I'll begin Learning JavaScript and React soon.
+					</p>
+				</article>
+				
 
-				<p>This month, I'm going on a 9 day Vacation to Chicago and Lake Geneva in Wisconsin. 
-					I probably won't be working on the site much, but I will be rejeuvenated when I get back. 
-					I will be at the friendly confines of Wrigley Field as well!</p>
-			</article>
-		</section>
-		<section>
-			<article>
-				<h2>Current Project</h2>
-				<p>I plan to finish the building blocks of this site, 
-					then work on a few more projects to really fill out the portfolio. 
-					I'm learning a lot about CSS right now and 
-					hopefully I'll begin Learning JavaScript and React soon.
-				</p>
-			</article>
-		</section>
-		<section>
-			<article>
-				<h2>Current Project</h2>
-				<p>I plan to finish the building blocks of this site, then work on a few more projects to really fill out the portfolio. </p>
-			</article>
-		</section>
-		<section>
-			<article>
-				<h2>Current Project</h2>
-				<p>I plan to finish the building blocks of this site, then work on a few more projects to really fill out the portfolio. </p>
-			</article>
-		</section>
-		<section>
-			<article>
-				<h2>Current Project</h2>
-				<p>I plan to finish the building blocks of this site, then work on a few more projects to really fill out the portfolio. </p>
-			</article>
-		</section>
+			</section>
+			<section class="photos">
+				<article class="album">
+					
+				</article>
+			</section>
+
+
+
+		</main>
+		
+		
 		
 		<aside></aside>
 		<footer></footer>
