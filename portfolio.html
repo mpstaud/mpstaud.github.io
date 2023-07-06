@@ -6,6 +6,9 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geologica"/>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tilt+Prism"/>
 	<style>
+		body {
+				color: white;
+			}
 		.nav-logo{
 			font-family: 'Tilt Prism', serif;
 			font-size: 35px;
@@ -20,6 +23,24 @@
 			font-size: 20px;
 			color: white;	
 		}
+		
+		h1{
+			text-align: center;
+			font-family: "Geologica", serif;
+			font-size: 35px;
+		}
+		.pgdiv1{
+			position: fixed;
+			left: 0;
+			width: 50%;
+			height: 100%;
+			
+			background: #212129ae;
+
+		}
+		main{
+			margin-top: 50px;
+		}
 
 	</style>
 	
@@ -27,7 +48,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1"/>
 
 	<title>Portfolio</title>
-	<link type="image/png" sizes="96x96" rel="icon" href="#">
+	<link rel="icon" type="image/x-icon" href="./images/favicon2.ico"/>
 
 	<meta name="author" content="Matt Staudacher" />
 	<meta name="description" content="This is the site I created to showcase my Web Development skills as well as my other endeavors and aspirations" />
@@ -37,10 +58,11 @@
 <body>
 	
 	<header>
+		<a class="nav-logo" href="./index.html">M</a>
 		<!--Create Navigation Bar-->
 		<nav class="navbar">
 			<!--Links to the other pages on the site-->
-			<a class="nav-logo" href="#">MPS</a>
+			
 			<ul class="nav-menu">
 				<li class="nav-item">
 					<a href="./index.html" class="nav-link">Home</a>
@@ -55,25 +77,20 @@
 		</nav>
 		
 	</header>
-	<div class="sidebar">
-		<ul class="project-menu">
-			<li class="project">MyPickup
-
-			</li>
-			<li class="project">Who wants to be a millionaire?</li>
-			<li class="project">Push Powered Tiller</li>
-		</ul>
-
-	
-	</div>
 	<main>
-		<article class="project-article">
-			<h2>This Site!</h2>
-			<p>The whole purpose of this site is to build on my Web Development skills in a way that is evident to see. 
-				I'm learning new things with CSS and I would eventually like to implement JavaScript as well.</p>
-			<h2>MyPickup</h2>
-			<p></p>
-		</article>
+		<h1>Project Portfolio</h1>
+		<div class="pgdiv1">
+			<article>
+				<h2>MyPickup</h2>
+				<p>
+					MyPickup was a project that I worked on while taking MIS407 at Iowa State. 
+					Our team developed a Rideshare Web Application using HTML, CSS, Python, and Flask.
+				</p>
+
+
+			</article>
+			
+		</div>
 	</main>
 </body>
 

@@ -92,7 +92,7 @@ article{
 .Newsletter{
     position: fixed;
     left: 0;
-    width: 49.5%;
+    width: 49%;
     background: #212129ea;
     margin-top: 55px;
     margin-left: 5px;
@@ -106,7 +106,7 @@ article{
 .photos{
     position: fixed;
     right: 0;
-    width: 49.5%;
+    width: 49%;
     background-color: #212129ea;
     margin-top: 55px;
     margin-right: 5px;
