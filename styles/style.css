@@ -2,12 +2,25 @@
 html, body {
     padding:  0px;
     margin: 0px;
-} 
+}
+/*.theme-a {
+    background: whitesmoke;
+    color: black;
+  }
+  @media (prefers-color-scheme: dark) {
+    .theme-a.adaptive {
+      background: #212121;
+      color: whitesmoke;
+      
+    }
+  }
+  
+*/
 html{
-    background:url("https://mpstaud.github.io/images/AlpineLake.jpeg");
+    /*background:url("https://mpstaud.github.io/images/AlpineLake.jpeg");
     background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #212129;
+    background-repeat: no-repeat;*/
+    background-color: black;
     
 }
 h1{
