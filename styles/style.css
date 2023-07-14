@@ -2,42 +2,31 @@
 html, body {
     padding:  0px;
     margin: 0px;
+    background-color: white;
 }
-/*.theme-a {
-    background: whitesmoke;
-    color: black;
-  }
-  @media (prefers-color-scheme: dark) {
-    .theme-a.adaptive {
-      background: #212121;
-      color: whitesmoke;
-      
-    }
-  }
-  
-*/
-html{
-    /*background:url("https://mpstaud.github.io/images/AlpineLake.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;*/
-    background-color: black;
-    
+.logo{
+    float:inline-start;
+    margin-top: -15px;
+    padding-top: 0px;
+    width: 50px;
+    height: 50px;
 }
-h1{
-    margin-top: 0px;
-} 
+
+
+
 h2, p, li, h1{
     font-family: "Geologica", serif;
+    color: black;
     
 }
 
 header {
     position: fixed;
-    top: 0;
+    top: 5px;
     left: 0;
     height: 50px;
     width: 100%;
-    background: #212129ea;
+    background: white;
 }
 
 /*Styling for Naviagtion*/
@@ -45,81 +34,50 @@ header {
     margin: 0px;
 
 }
-.nav-logo{
-    font-family: 'Tilt Prism', serif;
-    font-size: 35px;
-    float: inline-start;
-    color: white;
-    text-decoration: none;
-    margin-top: 0px;
-    padding-right: 5px;
-    padding-left: 10px;
-    
-}
-.nav-logo:hover {
-    
-    color: green;
-}
 
-.nav-menu {
-    
+
+.navbar ul {
+    float: inline;
     list-style: none;
 
 }
-.nav-item{
+.navbar li {
     margin: auto;
     display: inline;
 
 }
 
-.nav-link{
+.navbar a{
     margin-right: 5px;
     text-decoration: none;
     padding: 5px;
-    color: white;
+    color: black;
 
     
 }
-.nav-link:hover {
-    color: green;
+.navbar a:hover {
+    color: #C41E3A;
     border-radius: 5px;
     padding: 5px;
 
 }
+.navbar h1{
+    text-align: right;
+    margin-top: -45px;
+    margin-right: 0px;
+}
+
 
 section{
     margin-top: 50px;
 }
 
 article{
-    margin: 10px;
+    margin: 55px;
 }
-.Newsletter{
-    position: fixed;
-    left: 0;
-    width: 49%;
-    background: #212129ea;
-    margin-top: 55px;
-    margin-left: 5px;
-    height: 50%;
-    border: 1px solid black;
-} 
-.news-article {
-    margin: 10px;
-    
-}  
-.photos{
-    position: fixed;
-    right: 0;
-    width: 49%;
-    background-color: #212129ea;
-    margin-top: 55px;
-    margin-right: 5px;
-    height:50%;
-    border: 1px solid black;
-    
 
-}
+
+
 
 
 
