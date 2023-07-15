@@ -4,17 +4,7 @@ html, body {
     margin: 0px;
     background-color: white;
 }
-.logo{
-    position: fixed;
-    top:  -5px;
-    left: 0px;
-    
-    width: 50px;
-    height: 50px;
-}
-
-
-
+/*Set Font family to Geologica*/
 h2, p, li, h1{
     font-family: "Geologica", serif;
     color: black;
@@ -35,8 +25,14 @@ header {
     margin: 0px;
 
 }
-
-
+.navbar img{
+    position: fixed;
+    top:  -5px;
+    left: 0px;
+    
+    width: 50px;
+    height: 50px;
+}
 .navbar ul {
     margin: 10px;
     
@@ -51,7 +47,7 @@ header {
     display: inline;
 
 }
-
+/*This is the styling for the navigation links*/
 .navbar a{
     margin-right: 5px;
     text-decoration: none;
@@ -60,27 +56,34 @@ header {
 
     
 }
+/*Changes the color when user hovers over the links with their cursor*/
 .navbar a:hover {
     color: #C41E3A;
     border-radius: 5px;
     padding: 5px;
 
 }
-.navbar h1{
-    text-align: right;
-    margin-top: -45px;
-    margin-right: 0px;
-}
 
 
-section{
-    margin-top: 50px;
-}
-
-article{
+.home, .cv {
     margin: 55px;
 }
+.xp {
+    list-style: none;
+    display: block;
 
+}
+.xp li{
+    line-height: 1;
+    
+}
+.xp ul {
+    list-style: none;
+}
+.cv h3{
+    font-family: "Geologica", serif;
+    font-size: 16px;
+}
 
 
 
