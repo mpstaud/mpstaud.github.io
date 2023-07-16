@@ -22,16 +22,18 @@ header {
 
 /*Styling for Naviagtion*/
 .navbar{
-    margin: 0px;
+    margin: 0 auto;
 
 }
 .navbar img{
+    display: block;
     position: fixed;
     top:  -5px;
     left: 0px;
     
     width: 50px;
     height: 50px;
+    
 }
 .navbar ul {
     margin: 10px;
@@ -68,6 +70,10 @@ header {
 .home, .cv {
     margin: 55px;
 }
+.cv p{
+    line-height: 0.5;
+    
+}
 .xp {
     list-style: none;
     display: block;
@@ -77,6 +83,7 @@ header {
     line-height: 1;
     
 }
+
 .xp ul {
     list-style: none;
 }
