@@ -6,7 +6,7 @@ html, body {
 }
 /*Set Font family to Geologica*/
 h2, p, li, h1{
-    font-family: "Geologica", serif;
+    font-family: "Tektur", serif;
     color: black;
     
 }
@@ -70,6 +70,38 @@ header {
 .home, .cv {
     margin: 55px;
 }
+main{
+    
+    margin-top: 60px;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    height: 1000px;
+    background-color: white;
+}
+main img{
+    float: left;
+    display: block;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+main > h1{
+    margin: 10px;
+
+}
+.bio{
+    display: block;
+    float: right;
+    width: 65%;
+    height: 100%;
+    background-color: white;
+
+}
+main p {
+    text-align: justify;
+}
 .cv p{
     line-height: 0.5;
     
@@ -88,8 +120,25 @@ header {
     list-style: none;
 }
 .cv h3{
-    font-family: "Geologica", serif;
+    font-family: "Tektur", serif;
     font-size: 16px;
+}
+
+.clone{
+    width: 64px;
+    height: 64px;
+}
+.clone img{
+    margin: auto;
+    width: 64px;
+    height: 64px;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 150px;
+    background-color: whitesmoke;
 }
 
 
