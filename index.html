@@ -17,12 +17,12 @@
       href="https://fonts.googleapis.com/css2?family=Tektur"
     />
 
-    <script src="assets/scripts/main.js" defer></script>
+    <script src="Portfolio_Site_Project/assets/scripts/main.js" defer></script>
     <meta charset="UTF-8" />
     <!-- Universal Text Format -->
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Home</title>
-    <link rel="icon" type="image/x-icon" href="assets/branding/favicon2.ico" />
+    <link rel="icon" type="image/x-icon" href="Portfolio_Site_Project/assets/branding/favicon2.ico" />
 
     <!--Building blocks of a favicon link-->
     <meta name="author" content="Matt Staudacher" />
@@ -33,32 +33,29 @@
   </head>
   <body>
     <header>
-      <!--Create Navigation Bar-->
+      
+      <div class="dropdown">
+        <button></button>
+        <a href="Web_Resume/resume.html">Resume</a>
+        <a href="./portfolio.html">Portfolio</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./mypickup.html">MyPickup</a>
+      </div>
 
       <nav class="navbar">
         <!--Insert Site Logo-->
         <img src="assets/branding/cyclone.png" alt="Cyclone Logo" />
-        <ul>
-          <!--Page links for the navigation Menu-->
-          <li>
-            <a href="./resume.html">Resume</a>
-          </li>
-          <li>
-            <a href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a href="./contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a href="./mypickup.html">MyPickup</a>
-          </li>
-        </ul>
+       
       </nav>
     </header>
     <!--Main page content-->
     <main>
       <!--Inserts Profile Image-->
-      <img src="assets/images/profilephoto.jpg" alt="Profile Picture" />
+      <img
+        src="assets/images/profilephoto.jpg"
+        alt="Profile Picture"
+        id="profile"
+      />
       <!--Bio Section-->
       <h1>Matt Staudacher</h1>
       <p>
@@ -66,7 +63,8 @@
         Developer! I learned <a href="#">Python</a>, <a href="#">Java</a>,
         <a href="#">HTML</a>, <a href="#">CSS</a>, and
         <a href="#">SQL</a> during my time at Iowa State, and now I'm learning
-        <a href="#">JavaScript</a> too! This site is for my portfolio to showcase my programming skills.
+        <a href="#">JavaScript</a> too! This site is for my portfolio to
+        showcase my programming skills.
       </p>
     </main>
 
