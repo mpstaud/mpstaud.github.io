@@ -1,4 +1,4 @@
-let dd = document.getElementsByClassName('dropdown');
+let dd = document.querySelector('dropdown');
 
 
 
