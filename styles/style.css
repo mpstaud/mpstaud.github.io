@@ -18,10 +18,14 @@ header {
   width: 100%;
   background: white;
 }
+nav{
+  background-color: blue;
+}
 
 /*Styling for Naviagtion*/
 .navbar {
   margin: 0 auto;
+  
 }
 .navbar img {
   display: block;
@@ -80,13 +84,7 @@ main img {
 main > h1 {
   margin: 10px;
 }
-.bio {
-  display: block;
-  float: right;
-  width: 65%;
-  height: 100%;
-  background-color: white;
-}
+
 main p {
   text-align: justify;
 }

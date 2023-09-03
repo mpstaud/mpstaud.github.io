@@ -14,151 +14,61 @@
       href="https://fonts.googleapis.com/css2?family=Tektur"
     />
     <meta charset="UTF-8" />
-    <!-- Universal Text Format -->
+
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Resume</title>
-    <!--Link Template for a favicon-->
+    <title>Matt Staudacher - Web Resume</title>
     <link rel="icon" type="image/x-icon" href="./images/favicon2.ico" />
-    <!--Metadata establishing myself as the author and what the purpose of the site is.-->
-    <meta name="author" content="Matt Staudacher" />
-    <meta
-      name="description"
-      content="This is the site I created to showcase my Web 
-		Development skills as well as my other endeavors and aspirations"
-    />
-    <style>
-      html {
-        margin: 0px;
-        background-color: black;
-      }
-      body {
-        background-color: white;
-        height: 11in;
-        width: 8.5in;
-        float: left;
-        margin-left: 25%;
-        margin-right: 25%;
-      }
-      main {
-        margin: 1in;
-      }
-      .sect p {
-        font-size: 14px;
-        display: block;
-        word-wrap: normal;
-        margin: 5px
-        
-      }
-      ul{
-        margin: 0px;
-      }
-      li {
-        font-size: 12px;
-        margin: 0px;
-      }
-      img {
-        float: right;
-        margin-top: 1in;
-        margin-right: 1in;
-        height: 250px;
-        width: 250px;
-        border-radius: 125px;
-      }
-      h1,h2{
-        margin: 0px;
-      }
-      .sect{
-        margin: 0px;
-      }
-    </style>
+    <link rel="stylesheet" href="./styles/style.css">
   </head>
 
   <body>
-    <!--<img src="./profilephoto.jpg" alt="Profile Picture" id="profile" />-->
-    <main>
-      <h1>Matthew Staudacher</h1>
-      <div id="experience" class="sect">
-        <h2>Work Experience</h2>
-        <p>
-          Associate IT Support & Service Analyst | Ruan Transportation | June
-          2022 - Present
-        </p>
+    <header>
+      <nav class="navbar">
+        <!--Insert Site Logo-->
+        <img src="./images/cyclone.png" alt="Cyclone Logo" />
         <ul>
-          <li>
-            Supported operations by solving complex software & hardware issues
-            as well as fulfilling service requests
-          </li>
-          <li>
-            Designed the flow of an automated process for updating access
-            following promotions and location transfers
-          </li>
-          <li>
-            Administrated user accounts and system access using Microsoft Azure,
-            Office 365 Admin Center, Exchange Admin Center, and Windows Active
-            Directory
-          </li>
-        </ul>
-        <p>Store Associate | The Home Depot | April 2020 - January 2022</p>
-        <ul>
-          <li>
-            Helped foster a friendly and helpful environment for guests visiting
-            the store
-          </li>
-          <li>Organized and stocked merchandise on the shelves</li>
-        </ul>
-        <p>Student Worker | ISU Dining | January 2019 - December 2019</p>
-        <ul>
-          <li>
-            Ensured that customers were served healthy, safe, and delicious food
-          </li>
-        </ul>
-      </div>
-      <div id="education" class="sect">
-        <h2>Education</h2>
-        <p>
-          B.S. Management Information Systems | Iowa State University |
-          2018-2022
-        </p>
-        <p>Notable Coursework</p>
-        <ul>
-          <li>MIS 407:Advanced Business Programming</li>
-          <li>MIS 307: Intermediate Business Programming</li>
-          <li>MIS 207: Fundamentals of Computer Programming</li>
-          <li>AER E 160</li>
-          <li>ME 170</li>
-          <li>ME 270</li>
-        </ul>
-        <a href="#">ISU Transcript</a>
-      </div>
-      <div id="skills" class="sect">
-        <h2>Technical Skills</h2>
-        <p>Object-Oriented Programming</p>
+          <li><a href="./resume.html">Skillset</a></li>
+          <li><a href="./contact.html">Contact</a></li>
 
-        <p>Front-End Development</p>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
         </ul>
-        <p>Back-End Development</p>
-        <ul>
-          <li>Python</li>
-          <li>JavaScript</li>
-        </ul>
-      </div>
-      <div id="involvment" class="sect">
-        <h2>Community Involvment</h2>
-        <p>
-          Phi Delta Theta | Philanthropy Chairman, Chaplain | Iowa State
-          University | 2018 - 2022
-        </p>
-        <ul>
-          <li>
-            Planned and Coordinated two Philanthropy Events in 2021 to raise
-            over $7000 for the Live Like Lou Foundation
-          </li>
-        </ul>
-      </div>
-    </main>
+       
+      </nav>
+    </header>
+    
+    <section id="about">
+      <h2>About Me</h2>
+      <!-- Your about me content goes here -->
+      <p>I grew up outside of Chicago and graduated from Iowa State in 2022</p>
+    </section>
+
+    <section id="experience">
+      <h2>Work Experience</h2>
+      <!-- Your work experience content goes here -->
+      <p>Associate IT Support & Service Analyst | Des Moines, IA | 06/2022 - Present</p>
+      <ul>
+        <li></li>
+      </ul>
+      <p>Store Associate | The Home Depot | Geneva, IL | 04/2020 - 01/2022</p>
+      <ul>
+        <li></li>
+      </ul>
+      <p>Student Food Service Worker | ISU Dining | Ames, IA | 01/2019 - 12/2019</p>
+      <ul>
+        <li></li>
+      </ul>
+    </section>
+
+    <!-- More sections for education, skills, projects, etc. -->
+
+    <footer>
+      <p>Email: staudachermatthew@gmail.com</p>
+      <p>Phone: (630) 464-9844</p>
+      <p>LinkedIn: </p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+    
+    
   </body>
 </html>

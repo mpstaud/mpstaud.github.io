@@ -1,4 +1,5 @@
-let userInput = document.getElementById('input-text');
+let dd = document.getElementsByClassName('dropdown');
+
 
 
 
