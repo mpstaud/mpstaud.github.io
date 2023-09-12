@@ -11,6 +11,7 @@ function numtries() {
       window.location.replace("./gameover.html");
     } else {
       alert(attempts + " attempts remaining");
+      
     }
 }
 
