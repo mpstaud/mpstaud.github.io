@@ -18,16 +18,63 @@ header {
   width: 100%;
   background: white;
 }
-nav{
-  background-color: blue;
-}
+
 
 /*Styling for Naviagtion*/
 .navbar {
-  margin: 0 auto;
+  background-color: #333;
+  position: relative;
+  z-index: 999;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: #c41e3a;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar li a {
+  color: white;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.navbar li a:hover{
+  color: gold;
+}
+
+/* Style the dropdown menu */
+.navbar ul ul {
+  position: absolute;
+  top: 100%;
+  display: none;
+}
+
+.navbar ul ul li {
+  display: block;
   
 }
-.navbar img {
+
+.navbar li:hover ul {
+  display: block;
+  background-color: #c41e3a;
+  color: white;
+}
+.navbar ul ul li a{
+  color: white;
+}
+/* Change the background color of dropdown links on hover */
+.navbar ul ul li a:hover {
+  color: gold;
+  
+}
+  
+/*.navbar img {
   display: block;
   position: fixed;
   top: -5px;
@@ -47,19 +94,20 @@ nav{
   margin: 0px;
   display: inline;
 }
-/*This is the styling for the navigation links*/
+This is the styling for the navigation links
 .navbar a {
   margin-right: 5px;
   text-decoration: none;
   padding: 5px;
   color: black;
 }
-/*Changes the color when user hovers over the links with their cursor*/
+Changes the color when user hovers over the links with their cursor
 .navbar a:hover {
   color: #c41e3a;
   border-radius: 5px;
   padding: 5px;
 }
+*/
 
 .home,
 .cv {
@@ -123,10 +171,9 @@ footer {
   height: 150px;
   background-color: whitesmoke;
 }
-.dropdown {
-  display: inline-block;
-  position: relative;
-}
-.dropdown:hover {
-  background-color: #c41e3a;
+
+iframe{
+  margin-top: 60px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
