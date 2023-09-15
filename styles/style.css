@@ -177,3 +177,38 @@ iframe{
   margin-left: 5px;
   margin-right: 5px;
 }
+#resumeWindow{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 850px;
+}
+#emailForm{
+  display: block;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #c41e3a;
+  width: 300px;
+  
+}
+#emailForm label{
+  display: flex;
+  margin-left: 5px;
+
+}
+#emailForm button{
+  margin: 5px;
+}
+
+#emailForm input, textarea{
+  margin: 5px;
+}
+#emailForm textarea{
+  height: 100px;
+  width: 300px;
+
+}
+#emailForm input{
+  width: 243px;
+}

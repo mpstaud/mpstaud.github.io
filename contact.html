@@ -16,22 +16,39 @@
       
       <!--<img src="./images/cyclone.png" alt="Cyclone Logo" />-->
       <ul>
+        <li><a href="./index.html">About</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="./resume.html">Resume</a></li>
         <li>
           <a href="#">Projects</a>
             <ul>
-              <li><a href="#">MyPickup</a></li>
               <li><a href="./numberGame.html">Number Guessing Game</a></li>
+              <li><a href="#">MyPickup</a></li>
               
             </ul>
         </li>
-        <li><a href="./contact.html">Contact</a></li>
+        
         
       </ul>
     </nav>
   </header>
 
-  <form action=""></form>
+  <div id="emailForm">
+    <form
+      action="https://formspree.io/f/mbjvkydy"
+      method="POST">
+      <label>
+        Your email:
+        <input type="email" name="email">
+      </label>
+      <label>
+        Your message:
+        <textarea name="message"></textarea>
+      </label>
+      <!-- your other form fields go here -->
+      <button type="submit">Send</button>
+    </form>
+
+  </div>
 </body>
 </html>
