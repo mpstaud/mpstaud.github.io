@@ -1,218 +1,160 @@
 html{
   margin: 0px;
+  padding: 0px;
 }
-/*Set Font family to Geologica*/
-h2,
-p,
-li,
-h1 {
-  font-family: "Tektur", serif;
-  color: black;
-}
-
-header {
-  position: fixed;
-  top: 0px;
-  left: 0;
-  height: 50px;
-  width: 100%;
-  background: white;
-}
-
-
-/*Styling for Naviagtion*/
-.navbar {
+.navbar{
   background-color: #333;
   position: relative;
   z-index: 999;
+  overflow: hidden;
 }
-
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background: #c41e3a;
-}
-
-.navbar li {
-  display: inline-block;
-}
-
-.navbar li a {
-  color: white;
-  display: block;
-  padding: 10px 20px;
-  text-decoration: none;
-}
-.navbar li a:hover{
-  color: gold;
-}
-
-/* Style the dropdown menu */
-.navbar ul ul {
-  position: absolute;
-  top: 100%;
-  display: none;
-}
-
-.navbar ul ul li {
-  display: block;
-  
-}
-
-.navbar li:hover ul {
-  display: block;
-  background-color: #c41e3a;
-  color: white;
-}
-.navbar ul ul li a{
-  color: white;
-}
-/* Change the background color of dropdown links on hover */
-.navbar ul ul li a:hover {
-  color: gold;
-  
-}
-  
-/*.navbar img {
-  display: block;
-  position: fixed;
-  top: -5px;
-  left: 0px;
-
-  width: 50px;
-  height: 50px;
-}
-.navbar ul {
-  margin: 10px;
-
-  float: left;
-
-  list-style: none;
-}
-.navbar li {
-  margin: 0px;
-  display: inline;
-}
-This is the styling for the navigation links
-.navbar a {
-  margin-right: 5px;
-  text-decoration: none;
-  padding: 5px;
+h2,p,li,h1 {
+  font-family: "Tektur", serif;
   color: black;
 }
-Changes the color when user hovers over the links with their cursor
-.navbar a:hover {
-  color: #c41e3a;
-  border-radius: 5px;
-  padding: 5px;
-}
-*/
-
-.home,
-.cv {
-  margin: 55px;
-}
-main {
-  margin-top: 60px;
-  margin-left: 25%;
-  margin-right: 25%;
-  width: 50%;
-  height: 1000px;
-  background-color: white;
-}
-main img {
-  float: left;
-  display: block;
-  margin: 10px;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-}
-main > h1 {
-  margin: 10px;
-}
-
-main p {
-  text-align: justify;
-}
-.cv p {
-  line-height: 0.5;
-}
-.xp {
-  list-style: none;
-  display: block;
-}
-.xp li {
-  line-height: 1;
-}
-
-.xp ul {
-  list-style: none;
-}
-.cv h3 {
-  font-family: "Tektur", serif;
-  font-size: 16px;
-}
-
-.clone {
-  width: 64px;
-  height: 64px;
-}
-.clone img {
-  margin: auto;
-  width: 64px;
-  height: 64px;
-}
-footer {
-  position: fixed;
-  bottom: 0px;
+main{
+  margin-top: 50px;
   width: 100%;
-  height: 150px;
-  background-color: whitesmoke;
+  height: 100%
 }
 
-iframe{
-  margin-top: 60px;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-#resumeWindow{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 850px;
-}
-#emailForm{
-  display: block;
-  margin-top: 60px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #c41e3a;
-  width: 300px;
+@media (min-width: 600px){
+  html{
+    margin: 0px;
+  }
+
+  h2,
+  p,
+  li,
+  h1 {
+    font-family: "Tektur", serif;
+    color: black;
+  }
   
-}
-#emailForm label{
-  font-family: 'Tektur', serif;
-  color: white;
-  display: flex;
-  margin-left: 5px;
-
-}
-#emailForm button{
-  display: flex;
+  header {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background: white;
+  }
   
-  margin: 5px;
-}
+  
+  /*Styling for Naviagtion*/
+  .navbar {
+    background-color: #333;
+    position: relative;
+    z-index: 999;
+    overflow: hidden;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: #c41e3a;
+  }
+  
+  .navbar li {
+    display: inline-block;
+  }
+  
+  .navbar li a {
+    color: white;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  .navbar li a:hover{
+    color: gold;
+  }
+  
+  .navbar ul ul {
+    position: absolute;
+    top: 100%;
+    display: none;
+  }
+  
+  .navbar ul ul li {
+    display: block;
+    
+  }
+  
+  .navbar li:hover ul {
+    display: block;
+    background-color: #c41e3a;
+    color: white;
+  }
+  .navbar ul ul li a{
+    color: white;
+  }
+  /* Change the background color of dropdown links on hover */
+  .navbar ul ul li a:hover {
+    color: gold;
+    
+  }
+  
+  main {
+    margin-top: 60px;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    height: 1000px;
+    background-color: white;
+  }
+  main img {
+    float: left;
+    display: block;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  iframe{
+    margin-top: 60px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  #resumeWindow{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+  }
+  #emailForm{
+    display: block;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #c41e3a;
+    width: 300px;
+    
+  }
+  #emailForm label{
+    font-family: 'Tektur', serif;
+    color: white;
+    display: flex;
+    margin-left: 5px;
+  
+  }
+  #emailForm button{
+    display: flex;
+    
+    margin: 5px;
+  }
+  
+  #emailForm input, textarea{
+    margin: 5px;
+  }
+  #emailForm textarea{
+    height: 100px;
+    width: 300px;
+  
+  }
+  #emailForm input{
+    width: 243px;
+  }
 
-#emailForm input, textarea{
-  margin: 5px;
-}
-#emailForm textarea{
-  height: 100px;
-  width: 300px;
-
-}
-#emailForm input{
-  width: 243px;
 }
