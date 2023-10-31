@@ -1,4 +1,18 @@
-@media screen and (max-width: 767px) {
+html{
+    margin: 0px;
+    padding: 0px;
+}
+#ui{
+    display: flex;
+    background: #c41e3a;
+    width: auto;
+    height: auto;
     
     
+}
+#ui ul{
+    list-style: none;
+}
+#ui ul li{
+    margin: 5px;
 }
