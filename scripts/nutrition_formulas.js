@@ -49,7 +49,7 @@ function goal_adjustment()
     
     bmr = calculateBMR();
     alert(bmr + ' Calories')
-    activity_adjusted_calories = harris_benedict_calculation(bmr);
+    activity_adjusted_calories = Math.trunc(harris_benedict_calculation(bmr));
     alert(activity_adjusted_calories + 'Calories')
 
 
