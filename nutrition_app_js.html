@@ -3,23 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calorie Calculator</title>
+    <link 
+      rel="stylesheet" 
+      href="./styles/style.css" 
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Tektur"
+    />
 </head>
 <body>
-    <select id="sex">
-        <option value="male">Male</option>
-        <option value="female">Female</option>
-    </select>
-    <input type="number" placeholder="Enter your weight" id="weight">
-    <input type="number" placeholder="Enter your height" id="height">
-    <input type="number" placeholder="How old are you?" id="age">
-    <select id="activity_level">
-        <option value="inactive">Inactive</option>
-        <option value="somewhat_active">Somewhat Active</option>
-        <option value="active">Active</option>
-        <option value="athlete">Athlete</option>
-    </select>
-    <button type="submit" onclick="goal_adjustment();">Let's go</button>
+    <header>
+        <nav class="navbar">
+        
+            <!--<img src="./images/cyclone.png" alt="Cyclone Logo" />-->
+            <ul>
+              <li><a href="./resume.html">Resume</a></li>
+              <li>
+                <a href="#">Portfolio</a>
+                  <ul>
+                    <li><a href="https://github.com/mpstaud/Portfolio/tree/main/Python">Python</a></li>
+                    <li><a href="https://github.com/mpstaud/Portfolio/tree/main/JavaScript">JavaScript</a></li>
+                    <li><a href="https://github.com/mpstaud/Portfolio/tree/main/C++">C++</a></li>
+                    <li><a href="./nutrition_app_js.html">Nutrition App</a></li>
+                    
+                  </ul>
+              </li>
+              <li><a href="./contact.html">Contact</a></li>
+              
+            </ul>
+          </nav>
+    </header>
+    <main>
+        <select id="sex">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <input type="number" placeholder="Enter your weight" id="weight">
+        <input type="number" placeholder="Enter your height" id="height">
+        <input type="number" placeholder="How old are you?" id="age">
+        <select id="activity_level">
+            <option value="inactive">Inactive</option>
+            <option value="somewhat_active">Somewhat Active</option>
+            <option value="active">Active</option>
+            <option value="athlete">Athlete</option>
+        </select>
+        <button type="submit" onclick="goal_adjustment();">Let's go</button>
+    <main>
     <script src="./scripts/nutrition_formulas.js"></script>
 </body>
 </html>
